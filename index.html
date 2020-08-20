@@ -64,10 +64,10 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-Git学习笔记-md" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/08/20/hello-world/" class="article-date">
-  <time datetime="2020-08-20T05:02:33.108Z" itemprop="datePublished">2020-08-20</time>
+    <a href="/2020/08/20/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-md/" class="article-date">
+  <time datetime="2020-08-20T06:36:44.000Z" itemprop="datePublished">2020-08-20</time>
 </a>
     
   </div>
@@ -78,50 +78,11 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/08/20/hello-world/">Hello World</a>
+      <a class="article-title" href="/2020/08/20/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-md/">Git学习笔记.md</a>
     </h1>
   
 
       </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/08/20/hello-world/" data-id="cke2f0fqm0001xxbm7bgrf7g6" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-Git学习笔记" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/04/22/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="article-date">
-  <time datetime="2020-04-22T09:15:23.000Z" itemprop="datePublished">2020-04-22</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
     
     <div class="article-entry" itemprop="articleBody">
       
@@ -131,7 +92,7 @@
 
 <h2 id="工作区和暂存区"><a href="#工作区和暂存区" class="headerlink" title="工作区和暂存区"></a>工作区和暂存区</h2><p>工作区（Working Directory)就是git管理的可见的当前目录。而隐藏的.git目录就是版本库（Repository).</p>
 <p>版本库中包含的很重要的一部分就是暂存区（stage/index).还有就是master分支及其指针（HEAD)。</p>
-<p><img src="https://www.liaoxuefeng.com/files/attachments/919020037470528/0" alt="Git"></p>
+<p><img src="https://i.loli.net/2020/08/20/G6uhk45VLrlceXD.jpg" alt="0"></p>
 <p><code>git add</code> 命令就是把文件修改提交到暂存区，<code>git commit</code>就是把暂存区的所有内容提交到当前分支。</p>
 <p>Git跟踪并管理的是修改，而非文件。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 查看工作区与版本库中文件的区别</span></span><br><span class="line">git diff HEAD -- 文件名</span><br></pre></td></tr></table></figure>
@@ -158,9 +119,11 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/04/22/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" data-id="cke2f0fqf0000xxbmdenjdosj" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/08/20/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-md/" data-id="cke2fvxar00009obm8stgbnb8" class="article-share-link">Share</a>
       
       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Git/" rel="tag">Git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0/" rel="tag">学习</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag">笔记</a></li></ul>
+
     </footer>
   </div>
   
@@ -178,15 +141,29 @@
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Git/" rel="tag">Git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0/" rel="tag">学习</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag">笔记</a></li></ul>
+    </div>
+  </div>
+
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/%E5%AD%A6%E4%B9%A0/" style="font-size: 10px;">学习</a> <a href="/tags/%E7%AC%94%E8%AE%B0/" style="font-size: 10px;">笔记</a>
+    </div>
+  </div>
+
   
     
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/08/">八月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">四月 2020</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/08/">八月 2020</a></li></ul>
     </div>
   </div>
 
@@ -199,11 +176,7 @@
       <ul>
         
           <li>
-            <a href="/2020/08/20/hello-world/">Hello World</a>
-          </li>
-        
-          <li>
-            <a href="/2020/04/22/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">(no title)</a>
+            <a href="/2020/08/20/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-md/">Git学习笔记.md</a>
           </li>
         
       </ul>
